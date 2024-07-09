@@ -1,0 +1,145 @@
+   <head>
+         <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- awesone fonts css-->
+        <link href="../static/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <!-- owl carousel css-->
+        <link rel="stylesheet" href="../static/owl-carousel/assets/owl.carousel.min.css" type="text/css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="../static/css/style.css">
+        <title>Workforce.</title>
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
+            <div class="container"><a class="navbar-brand">WorkForce.</a>
+                <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"><span
+                        class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span></button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="/index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/predict">Prediction</a></li>
+                                               
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid gtco-banner-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <section>
+                            <div class="container">
+                              <div class="row">
+                                <center>
+                                  <div class="  col-lg-7 px-5 pt-5">
+                                    <div class="divider"></div>
+                                        <form action="/results" method="POST">
+                                            <!-- satisfaction_level -->
+                                            <div class="row mb-4">
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                        <p>Satisfaction level <input type="text" placeholder=" Sector score" class="form-control" name='satisfaction_level'></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                        <!-- last_evaluation -->
+                                                        <p>last evaluation<input type="text" placeholder="summary report A in Rs (in crore)" class="form-control" name='last_evaluation'></p>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <div class="row mb-4">
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                    <!-- number_project -->
+                                                    <p>number project<input type="text" placeholder="Risk of report A" class="form-control" name='number_project'></p>
+                            
+                                                    </div>
+                                                </div>   
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                    <!-- average_monthly_hours -->
+                                                    <p>average monthly hours<input type="text" placeholder="summary report B in Rs (in crore)" class="form-control" name='average_monthly_hours'></p>
+                                                    
+                                                    </div>
+                                                </div>    
+                                            </div>
+                                            <div class="row mb-4">
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                    <!-- time_spend_company -->
+                                                    <p>time spend company<input type="text" placeholder="Risk of report B" class="form-control" name='time_spend_company'></p>
+                            
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                    <!-- Work_accident -->
+                                                    <p>Work accident<input type="text" placeholder="Total" class="form-control" name='Work_accident'></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-4">
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                    <!-- left -->
+                                                    <p>left<input type="text" placeholder="Risk of report A" class="form-control" name='left'></p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-outline">
+                                                    <!-- promotion_last_5years -->
+                                                    <p>promotion last 5years<input type="text" placeholder="Risk of report A" class="form-control" name='promotion_last_5years'></p>
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <div class="form-outline">
+                                                <!-- salary-->
+                                                <p>salary<input type="text" placeholder="Risk of report A" class="form-control" name='salary'></p>
+                                                        
+                                                </div>
+                                            </div>                                     
+                                                                            
+                                        <!-- Submit button -->
+                                        <button  type="submit" class="btn btn-primary" value="pred" <a href="/result">Predict</a></button>
+                                        </form>
+                                    
+                                    </div> 
+                                </center>
+                              </div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card"><img class="card-img-top img-fluid" src="../static/images/banner-img.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="../static/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../static/js/popper.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- owl carousel js-->
+        <script src="../static/owl-carousel/owl.carousel.min.js"></script>
+        <script src="../static/js/main.js"></script>
+    </body>
+</html>
+
+
+    
